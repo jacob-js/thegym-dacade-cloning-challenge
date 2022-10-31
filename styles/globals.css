@@ -15,6 +15,11 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.learning-step__gradient{
+  background: radial-gradient(50% 50% at 50% 50%,#8e9af9 0,rgba(127,208,231,0) 100%);
+  opacity: .9;
+  filter: blur(159.73px);
+}
 
 @layer components{
   .content{
