@@ -1,30 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Home from '../components/Home'
 
-export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>NEAR DEV 101</title>
-        <meta name="description" content="Thegym nextjs challenge" />
-        <link rel="icon" href="/near-logo.svg" />
-      </Head>
-
-      <main>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
-    </div>
-  )
+export default function HomePage() {
+  return <Home />
 }

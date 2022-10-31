@@ -5,7 +5,9 @@ function Layout({children}) {
   return (
     <div>
         <Navbar />
-        {children}
+        <div className="min-h-screen pt-44 overflow-hidden bg-white">
+            {children}
+        </div>
     </div>
   )
 }

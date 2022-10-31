@@ -7,6 +7,14 @@
 body{
   font-family: 'Rubik', sans-serif;
 }
+.hero__gradient_bg{
+  background-image: radial-gradient(50% 50% at 50% 50%,#8e9af9 0,rgba(127,208,231,0) 100%);
+}
+.hero__gradient__text {
+  background: linear-gradient(#9092fb,#86b5ef,#7bdde2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 @layer components{
   .content{
