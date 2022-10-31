@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div class="bg-white px-5.7 lg:px-0 font-primary relative lg:pt-32 pt-12 h-150 lg:h-125 w-full hero">
+    <div class="content bg-white px-5.7 lg:px-0 font-primary relative lg:pt-32 pt-12 h-150 lg:h-125 w-full hero">
       <div class="hero__gradient_bg absolute lg:-top-127.5 -top-130 opacity-40 left-0 lg:-left-48 h-full w-2/4 z-50"></div>
       <div class="hero__gradient_bg absolute lg:-top-127.5 -top-130 opacity-40 right-0 lg:right-0 h-full w-2/5 z-50"></div>
       <div class=" text-center lg:w-227.5 mx-auto">

@@ -2,11 +2,11 @@ import React from 'react'
 
 function Step2() {
   return (
-    <div className="lg:mt-52 lg:px-0 lg:max-w-235 mx-auto mt-16 px-5.5 flex gap-x-44.75 lg:flex-row flex-col gap-y-4 items-center">
+    <div className="lg:mt-52 lg:px-0 lg:max-w-235 mx-auto mt-16 px-5.5 flex gap-x-44.75 lg:flex-row flex-col gap-y-4 items-center step-2">
         <div className="z-50">
             <div className=" z-10 relative lg:w-74 lg:h-74 w-45 h-45">
                 <img src="/img/target.svg" alt="" />
-                <div className="target-logo top-38% right-70% absolute h-120 w-120 z-0 hidden lg:block"></div>
+                <div className="step-2__gradient top-38% right-70% absolute h-120 w-120 z-0 hidden lg:block"></div>
             </div>
         </div>
         <div className="text-center lg:text-left">

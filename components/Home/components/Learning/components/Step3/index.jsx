@@ -4,7 +4,7 @@ function Step3() {
   return (
     <div className="grid px-5 justify-items-center mt-16 lg:mt-45.5">
         <div className="text-center mx-auto">
-            <h1 className="text-dark-100 text-center font-medium text-2xl lg:text-4xl leading-11 tracking-tight relative">
+            <h1 className="text-color text-center font-medium text-2xl lg:text-4xl leading-11 tracking-tight relative">
                 Claim NEAR certificate
                 <div className="hidden lg:block absolute top-0 -mt-38% left-40%">
                     <img src="/icon/arrow-step3.svg" alt="" />

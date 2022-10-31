@@ -4,7 +4,7 @@ import Learning from './components/Learning'
 
 function Home() {
   return (
-    <div className='content'>
+    <div className=''>
         <Hero />
         <Learning />
     </div>
